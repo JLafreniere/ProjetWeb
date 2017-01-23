@@ -1,0 +1,401 @@
+/* Auteur: Anthony
+Description: Feuille de style globale des pages du site web des Diablos */
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family: sans-serif;
+}
+
+legend{
+	color:black !important;
+	padding-left:15px !important;
+}
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+	.content {margin-left:5px;}
+	.col-sm-8{height:45%;}
+	.footer img{    height: 4em;
+    width: 40%;}
+}
+
+@media only screen and (orientation:landscape){
+	.col-sm-8{height:60%;}
+}
+
+.footer .navbar-default{
+	margin-bottom: 0px !important; 
+}
+
+.col-sm-12{
+	background-color:white;
+	margin-right:auto;
+	margin-left:auto;
+	padding-bottom:30px;
+	border-radius:10px;/* opacity:0.95; */   
+	 padding: 25px;
+}
+
+.breadcrumb > li + li:before {
+    color: #ccc;
+    content: "> " !important;
+    padding: 0 5px;
+}
+
+.wrapper {
+	min-height:100%;
+	    position: relative;
+	overflow-x: hidden;
+}
+
+.content {
+	padding-bottom:80px;
+}
+
+.footer {
+	width:100%;
+	bottom:0;
+	left:0; 
+    position: absolute;
+
+}
+
+#inscrire{
+	display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table-hover tbody tr:hover td{
+	background:-webkit-linear-gradient(top, #00498F 0%,#000000 100%);
+	background: -o-linear-gradient(top, #00498F 0%,#000000 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #00498F 0%,#000000 100%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(top, #00498F 0%,#000000 100%); /* Standard syntax */
+	cursor:pointer;
+	color:white;
+}
+
+#btnAjouterMembre,#btnAjouterRole,#btnAjouterSport{
+	float:right;
+}
+
+#btnAnnuler, #btnEnregistrerMembre, #btnSupprimerMembre, .btn-gestion, #inscrire{
+	margin:5px;
+	float:right;
+	width:100px;
+}
+
+#lienPW{
+	color:blue;
+}
+
+#livesearch {
+	z-index:2;
+	position:absolute 
+}
+
+#livesearchEvenements{
+	z-index:2;
+	position:absolute;
+}
+
+#filtre{
+	width:200px;
+}
+
+a.af-link:link, a.af-link:visited, a.af-link:hover, a.af-link:active{
+	color: black;
+    text-decoration: none;
+}
+
+.modal-title{
+	color:black;
+}
+
+#mdl-filtre{
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.filtreImgSport{
+	padding:0;
+}
+
+.pdf img{
+	width:25px !important;
+	height:25px !important;
+	float:right;
+}
+
+.filtreImgSport img{
+	width:50px;
+	height:50px;
+	/* margin:5 5 5 5px; */
+	margin: 0 auto;
+}
+
+.filtreImgSport li{
+	display: inline-block;
+	padding-right:15px;
+	padding-bottom:15px;
+}
+
+#dernierFiltre{
+	margin: 0 auto;
+}
+
+.filtreSelectionne {
+	border-radius: 10px;
+	border: 5px solid #00498F;
+}
+
+.glyphicon-filter {
+	font-size:25px;
+}
+
+/*  */
+
+/* Calendrier */
+body{ font-family: sans-serif;}
+.none{ display:none;}
+.dropdown{color: #444444;font-size:17px;}
+#calender_section{ width:700px; margin:30px auto 0;}
+#calender_section h2:not(#listeEvenements){ 
+	background:-webkit-linear-gradient(top, #45484d 0%,#000000 100%); 
+	background: -o-linear-gradient(top, #45484d 0%, #000000 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(top, #45484d 0%, #000000 100%); /* Standard syntax */
+	color:#444444; font-size:17px; 
+	text-align:center; 
+	line-height:40px;
+}
+#calender_section h2 a{ color:white; float:none;}
+#calender_section_top{ width:100%; float:left; margin-top:20px;}
+#calender_section_top ul{padding:0; list-style-type:none;}
+#calender_section_top ul li{ float:left; display:block; width:99px; border-right:1px solid #fff;  text-align:center; font-size:14px; min-height:0; background:none; box-shadow:none; margin:0; padding:0;color:#3A3A3F;font-family:Helvetica, "Times New Roman", Times, serif;font-size:18px;}
+#calender_section_bot{ width:100%; margin-top:20px; float:left; border-left:1px solid #ccc; border-bottom:1px solid #ccc;}
+#calender_section_bot ul{ margin:0; padding:0; list-style-type:none;}
+#calender_section_bot ul li{ float:left; width:99px; height:80px; text-align:center; border-top:1px solid #ccc; border-right:1px solid #ccc; min-height:0; background:none; box-shadow:none; margin:0; padding:0; position:relative;font-family:Helvetica, "Times New Roman", Times, serif;font-size:18px;}
+#calender_section_bot ul li span{ margin-top:7px; float:left; margin-left:7px; text-align:center;}
+
+#calender_section_bot > ul > li:not(.date_cell){
+background-color:#f2f2f2;
+}
+
+.grey{ background-color:#E2363D !important;color:white;}
+.evenement{ background:#003465 !important;color:white;}
+
+/*========== Hover Popup ===============*/
+.date_cell { cursor: pointer; cursor: hand; }
+.date_cell:hover { background: #DDDDDD !important; color: #222; }
+.date_popup_wrap {
+	position: absolute;
+	width: 143px;
+	height: 115px;
+	z-index: 9999;
+	top: -115px;
+	left:-55px;
+	background: transparent url(add-new-event.png) no-repeat top left;
+	color: #666 !important;
+}
+.events_window {
+	overflow: hidden;
+	overflow-y: auto;
+	width: 133px;
+	height: 115px;
+	margin-top: 28px;
+	margin-left: 25px;
+}
+.event_wrap {
+	margin-bottom: 10px; padding-bottom: 10px;
+	border-bottom: solid 1px #E4E4E7;
+	font-size: 12px;
+	padding: 3px;
+}
+.date_window {
+	margin-top:20px;
+	margin-bottom: 2px;
+	padding: 5px;
+	font-size: 16px;
+	margin-left:9px;
+	margin-right:14px
+}
+.green_window {
+	margin-top:20px;
+	margin-bottom: 2px;
+	padding: 5px;
+	font-size: 16px;
+	margin-left:9px;
+	margin-right:14px
+}
+.popup_event {
+	margin-bottom: 2px;
+	padding: 2px;
+	font-size: 16px;
+	width:100%;
+}
+.popup_event a {color: #000000 !important;}
+.packeg_box a {color: #F58220;float: right;}
+a:hover {color: #181919;text-decoration: underline;}
+
+.icon:hover > .green_popup_wrap {
+	display:block;
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+#calender_section{ width:336px;}
+#calender_section_top ul li{ width:47px;}
+#calender_section_bot ul li{ width:47px;}
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+#calender_section{ width:219px;}
+#calender_section_top ul li{ width:30px; font-size:11px;}
+#calender_section_bot ul li{ width:30px;}
+#calender_section_bot{ width:217px;}
+#calender_section_bot ul li{ height:50px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+#calender_section{ width:530px;}
+#calender_section_top ul li{ width:74px;}
+#calender_section_bot ul li{ width:74px;}
+#calender_section_bot{ width:525px;}
+#calender_section_bot ul li{ height:50px;}
+}
+
+#event_list ul {
+list-style-type: none;
+}
+
+#listeEvenements{
+background-color:white;
+color:black ;
+font-size:20px; 
+text-align:center; 
+line-height:40px;
+}
+
+hr{
+	border-top: 3px solid #D4D4D4 !important;
+}
+
+#btnOptionPDF{
+	display:inline-block;
+}
+
+#modalPDF .modal-body{
+	height:140px;
+}
+
+#modalPDF input[type=date]{
+	margin-bottom:10px;
+}
+
+/*
+	Evenement search CSS BEGIN
+	
+*/
+
+#search{
+	background-color: #f5f5f5;
+	padding: 15px;
+}
+
+#search input {
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+
+#search select {
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+
+#search_btn_row{
+	margin-bottom: 10px;
+}
+
+#search_btn_submit{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.expand{
+	width: 100%;
+}
+
+/* Evenement search CSS END*/
+#datetimepicker1>span, #datetimepicker2>span{
+	padding-top: 10px;
+	top: 13px;
+	position: relative;
+	display: inline;
+}
+.search-btn,.search-btn:hover,.search-btn:visited,.search-btn:active{
+	background-color:#E2383F !important;
+	border-color:#003465 !important;
+}
+
+#calendar_popup {
+	position: relative;
+}
+
+#calendar_popup_inner {
+	min-height: 250px;
+	width: 50%;
+	left: 25%;
+	top: 80px; 
+	background-color: #EEE;
+	border: 1px #444 solid;
+	position: absolute;
+	z-index: 3;
+}
+
+.pop-exit {
+	font-size: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.gradient-blue{
+	
+	background: #000000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, #00498F 0%,#000000 100%);
+    background: -o-linear-gradient(top, #00498F 0%,#000000 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #00498F 0%,#000000 100%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(top, #00498F 0%,#000000 100%); /* Standard syntax */
+    color:white;
+}
+
+.search-btn,.search-btn:hover,.search-btn:visited,.search-btn:active{
+	background-color:#E2383F !important;
+	border-color:#003465 !important;
+ }
+
+#deleteTelSejour {
+	cursor: pointer;
+	margin-left: 35px;
+}
+
+#testTelSejour {
+	margin-top: 5px;
+}
+
+.pdf { 
+    cursor: pointer;
+}
+
+.glyphicon-filter {
+	cursor: pointer;
+}
+
+#modalPDF>.modal-dialog>.modal-content{
+	height: 330px;
+	
+}
+#modalPDF>.modal-dialog>.modal-content>.modal-footer{
+	margin-top: 50px;
+}
+.modal-footer{
+	width:100%;
+}
