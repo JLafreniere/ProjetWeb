@@ -1,0 +1,12 @@
+1: Sauv telephone
+2: Div sejour (readonly)
+3: Sauv personne responsable
+4: Effacer exemple tel personnel
+5: Supprimer membre personnel
+6: Enlever equipe entraineur
+7: Sauvegarde num emb
+8: Calendrier gestion null
+9: Engrenage tous interface
+10: Suppression sports
+11: Gestion de marche pas dans connexion
+12" Mot de passe filtre
