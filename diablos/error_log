@@ -1,0 +1,51 @@
+[31-May-2016 08:56:56 America/Montreal] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/concep4tionwebsc/public_html/diablos/evenementPDF.php:1)' in /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/concep4tionwebsc/public_html/diablos/evenementPDF.php(72): FPDF->Output('liste_evenement...', 'I')
+#3 {main}
+  thrown in /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php on line 271
+[31-May-2016 09:03:29 America/Montreal] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/concep4tionwebsc/public_html/diablos/evenementPDF.php:1)' in /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/concep4tionwebsc/public_html/diablos/evenementPDF.php(72): FPDF->Output('liste_evenement...', 'I')
+#3 {main}
+  thrown in /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php on line 271
+[31-May-2016 09:15:16 America/Montreal] PHP Fatal error:  Uncaught exception 'Exception' with message 'FPDF error: Some data has already been output, can't send PDF file (output started at /home/concep4tionwebsc/public_html/diablos/evenementPDF.php:1)' in /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/concep4tionwebsc/public_html/diablos/evenementPDF.php(72): FPDF->Output('liste_evenement...', 'I')
+#3 {main}
+  thrown in /home/concep4tionwebsc/public_html/diablos/fpdf/fpdf.php on line 271
+[31-May-2016 13:53:41 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/personnelPDF.php on line 4
+[31-May-2016 13:53:41 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/personnelPDF.php on line 4
+[31-May-2016 14:13:11 UTC] PHP Parse error:  syntax error, unexpected '$' in /home/concep4tionwebsc/public_html/diablos/functionPHP.php on line 1946
+[31-May-2016 15:40:09 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/entraineurPDF.php on line 4
+[31-May-2016 15:40:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/entraineurPDF.php on line 4
+[31-May-2016 17:25:14 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierEntraineur.php on line 6
+[31-May-2016 17:25:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierEntraineur.php on line 6
+[31-May-2016 17:36:49 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:36:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:36:50 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:36:50 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:36:55 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:36:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:36:57 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:36:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:00 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:05 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:11 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:26 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:27 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:58 UTC] PHP Warning:  require_once(Connexion\Connect.php): failed to open stream: No such file or directory in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:37:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'Connexion\Connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/concep4tionwebsc/public_html/diablos/modifierSport.php on line 6
+[31-May-2016 17:57:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/concep4tionwebsc/public_html/diablos/functionPHP.php on line 1984
+[31-May-2016 17:57:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/concep4tionwebsc/public_html/diablos/functionPHP.php on line 1984
+[01-Jun-2016 12:34:30 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/concep4tionwebsc/public_html/diablos/functionPHP.php on line 1613

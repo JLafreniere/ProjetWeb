@@ -1,0 +1,38 @@
+<pages>
+<link>
+<title>Accueil</title>
+<url>index.php</url>
+</link>
+<link>
+<title>Planification</title>
+<url>gestionEvenements.php</url>
+</link>
+<link>
+<title>Gestion des entraîneurs</title>
+<url>gestionEntraineur.php</url>
+</link>
+<link>
+<title>Gestion des équipes</title>
+<url>gestionEquipes.php</url>
+</link>
+<link>
+<title>Gestion des responsables de plateau</title>
+<url>#</url>
+</link>
+<link>
+<title>Gestion des utilisateurs</title>
+<url>gestionUtilisateur.php</url>
+</link>
+<link>
+<title>Gestion des sports</title>
+<url>gestionSport.php</url>
+</link>
+<link>
+<title>Démo calendrier</title>
+<url>calendargab.php</url>
+</link>
+<link>
+<title>Gestion du personnel</title>
+<url>gestionPersonnel.php</url>
+</link>
+</pages>
